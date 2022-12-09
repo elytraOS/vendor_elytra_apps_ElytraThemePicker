@@ -1,4 +1,4 @@
-package co.aospa.android.customization.module
+package co.elytra.android.customization.module
 
 import android.content.Context
 
@@ -10,7 +10,7 @@ import com.android.wallpaper.picker.MonetPreviewFragment
 
 import com.android.customization.module.DefaultCustomizationInjector
 
-public class AospaCustomizationInjector : DefaultCustomizationInjector() {
+public class ElytraCustomizationInjector : DefaultCustomizationInjector() {
 
     private var customizationSections: CustomizationSections? = null
 
@@ -26,7 +26,7 @@ public class AospaCustomizationInjector : DefaultCustomizationInjector() {
 
     override fun getCustomizationSections(): CustomizationSections {
         if (customizationSections == null) {
-            customizationSections = AospaCustomizationSections()
+            customizationSections = ElytraCustomizationSections()
         }
         return customizationSections!!
     }
