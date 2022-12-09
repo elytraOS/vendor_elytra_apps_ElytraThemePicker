@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aospa.android.customization.picker.font;
+package co.elytra.android.customization.picker.font;
 
 import static com.android.wallpaper.widget.BottomActionBar.BottomAction.APPLY_TEXT;
 
@@ -41,8 +41,8 @@ import com.android.wallpaper.R;
 import com.android.wallpaper.picker.AppbarFragment;
 import com.android.wallpaper.widget.BottomActionBar;
 
-import co.aospa.android.customization.model.font.FontOption;
-import co.aospa.android.customization.model.font.FontManager;
+import co.elytra.android.customization.model.font.FontOption;
+import co.elytra.android.customization.model.font.FontManager;
 
 import java.util.List;
 

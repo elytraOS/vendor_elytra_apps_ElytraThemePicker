@@ -1,4 +1,4 @@
-package co.aospa.android.customization.module
+package co.elytra.android.customization.module
 
 import android.app.Activity
 
@@ -12,7 +12,7 @@ import com.android.wallpaper.picker.MonetPreviewFragment
 
 import com.android.customization.module.ThemePickerInjector
 
-public class AospaThemePickerInjector : ThemePickerInjector() {
+public class ElytraThemePickerInjector : ThemePickerInjector() {
 
     private var customizationSections: CustomizationSections? = null
 
@@ -28,7 +28,7 @@ public class AospaThemePickerInjector : ThemePickerInjector() {
 
     override fun getCustomizationSections(activity: Activity): CustomizationSections {
         return customizationSections
-            ?: AospaCustomizationSections(
+            ?: ElytraCustomizationSections(
                     getKeyguardQuickAffordancePickerInteractor(activity),
                     getKeyguardQuickAffordancePickerViewModelFactory(activity)
                 )

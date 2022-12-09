@@ -1,4 +1,4 @@
-package co.aospa.android.customization.module;
+package co.elytra.android.customization.module;
 
 import android.os.Bundle;
 
@@ -29,22 +29,22 @@ import com.android.wallpaper.module.CustomizationSections;
 import com.android.wallpaper.picker.customization.ui.section.ScreenPreviewSectionController;
 import com.android.wallpaper.util.DisplayUtils;
 
-import co.aospa.android.customization.model.font.FontManager;
-import co.aospa.android.customization.model.font.FontSectionController;
-import co.aospa.android.customization.model.iconpack.IconPackManager;
-import co.aospa.android.customization.model.iconpack.IconPackSectionController;
+import co.elytra.android.customization.model.font.FontManager;
+import co.elytra.android.customization.model.font.FontSectionController;
+import co.elytra.android.customization.model.iconpack.IconPackManager;
+import co.elytra.android.customization.model.iconpack.IconPackSectionController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /** {@link CustomizationSections} for the customization picker. */
-public final class AospaCustomizationSections implements CustomizationSections {
+public final class ElytraCustomizationSections implements CustomizationSections {
 
     private final KeyguardQuickAffordancePickerInteractor mKeyguardQuickAffordancePickerInteractor;
     private final KeyguardQuickAffordancePickerViewModel.Factory
             mKeyguardQuickAffordancePickerViewModelFactory;
 
-    public AospaCustomizationSections(
+    public ElytraCustomizationSections(
             KeyguardQuickAffordancePickerInteractor keyguardQuickAffordancePickerInteractor,
             KeyguardQuickAffordancePickerViewModel.Factory
                     keyguardQuickAffordancePickerViewModelFactory) {
